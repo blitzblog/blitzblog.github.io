@@ -1,11 +1,42 @@
 body {
+    background-color: #333; /* Dark background */
+    color: #ccc; /* Light text color */
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
 }
 
-header, main, footer {
-    width: 100%;
+/* Headers */
+h1, h2, h3 {
+    color: #ffcc00; /* Gold-like color for headings */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Links */
+a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+/* Content area */
+.content {
+    background-color: #222;
+    padding: 20px;
+    border: 1px solid #555;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Images */
+img {
+    border: 2px solid #555;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Buttons */
+button {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
 }
 
 /* Responsive layout */
